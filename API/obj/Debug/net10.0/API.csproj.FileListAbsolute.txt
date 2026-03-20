@@ -144,3 +144,8 @@
 /home/bpernot/dev/angular-aspnet-project/API/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll
 /home/bpernot/dev/angular-aspnet-project/API/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
 /home/bpernot/dev/angular-aspnet-project/API/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
+/home/bpernot/dev/angular-aspnet-project/API/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+/home/bpernot/dev/angular-aspnet-project/API/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/bpernot/dev/angular-aspnet-project/API/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+/home/bpernot/dev/angular-aspnet-project/API/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+/home/bpernot/dev/angular-aspnet-project/API/bin/Debug/net10.0/System.IdentityModel.Tokens.Jwt.dll
