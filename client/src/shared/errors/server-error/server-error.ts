@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { Router } from '@angular/router';
+import { ApiError } from '../../../types/error';
 
 @Component({
   selector: 'app-server-error',
@@ -6,4 +8,16 @@ import { Component } from '@angular/core';
   templateUrl: './server-error.html',
   styleUrl: './server-error.css',
 })
-export class ServerError {}
+export class ServerError {
+  protected error: ApiError;
+  private router = inject(Router);
+  protected showDetails = false;
+
+  constructor() {
+    this.error = history.state?.error ?? null;
+  }
+
+  detailsToggle() {
+    this.showDetails = !this.showDetails;
+  }
+}
