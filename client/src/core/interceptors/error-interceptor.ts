@@ -17,11 +17,11 @@ export const errorInterceptor: HttpInterceptorFn = (req, next) => {
             for (const key in error.error.errors) {
               if (error.error.errors[key]) {
                 modelStateErrors.push(error.error.errors[key]);
-              }
+              } 
             }
             throw modelStateErrors.flat();
           } else {
-            toast.error(error.error, error.status);
+            toast.error(error.error);
           }
             break;
           case 401: toast.error('Unauthorized')
