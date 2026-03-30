@@ -1,5 +1,4 @@
-import { Component, inject } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component } from '@angular/core';
 import { ApiError } from '../../../types/error';
 
 @Component({
@@ -10,7 +9,6 @@ import { ApiError } from '../../../types/error';
 })
 export class ServerError {
   protected error: ApiError;
-  private router = inject(Router);
   protected showDetails = false;
 
   constructor() {
